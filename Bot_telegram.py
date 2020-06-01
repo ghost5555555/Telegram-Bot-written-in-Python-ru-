@@ -1026,7 +1026,7 @@ def error(update, context):
 
 def main():
     """Start the bot."""
-    updater = Updater("1090816936:AAEMmhJMHy8kE-2pg__p-cJtPNjx6VzS_Fw",
+    updater = Updater("YOUR TOKEN",
                       request_kwargs={'proxy_url': 'socks5://5.133.194.171:12951/'},
                       use_context=True)
 
